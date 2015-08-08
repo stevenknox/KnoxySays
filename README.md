@@ -1,38 +1,50 @@
 # KnoxySays
-Simple Task Runner
+
+Simple Windows Command Line Task Runner
 
 This is a simple task runner using bat files to execute commands from the command line.
 
-Examples:
+**Examples:**
 
-knoxySays start visualstudio (starts visual studio 2013 as administrator)
-knoxySays start sql (starts SQLEXPRESS service)
-knoxySays stop sql (stops SQLEXPRESS service)
+Start Visual Studio 2013 as administrator:
 
-You can chain together bat files to create a workflow
+	KnoxySays start visualstudio 
 
-KnoxySays start dev (this will start Visual Studio, SQLEXPRESS, Process Explorer and SQL Management Studio)
-KnoxySays start dev (this will start Skype, Dropbox and Chrome)
+Starts SQLEXPRESS service
+
+	KnoxySays start sql
+
+Stops SQLEXPRESS service
+
+	KnoxySays stop sql
+
+Can chain together bat files to create a workflow.
+
+Start Visual Studio, SQLEXPRESS, Process Explorer and SQL Management Studio
+
+	KnoxySays start dev 
+
+Start Skype, Dropbox and Chrome
+
+	KnoxySays start utils
 
 You can use an alias rather than KnoxySays (ks already exists)
 
-ks start chrome
+	ks start chrome
 
 To create your own simply make a copy of ks.bat and save with your new alias name (eg. DoWork.bat)
 
-DoWork start web
+	DoWork start web
 
 You can pipe through any additional commands to the underlying programs
 
-KnoxySays start chrome --new-window kyroconsulting.co.uk
+	KnoxySays start chrome --new-window kyroconsulting.co.uk
 
-For help type- KnoxySays Help
+For help type
 
-
-
-
+	- KnoxySays Help
 
 
-To add a new task simply create a new bat file in the format start-MYTASK.bat or top-MYTASK.bat
+To add a new task simply create a new bat file in the format start-MYTASK.bat or stop-MYTASK.bat
 
-Drop these bat files into the scripts folder and they will be availbe to run from the command prompt.
+Drop these bat files into the Scripts folder and they will be available to run from the command prompt.

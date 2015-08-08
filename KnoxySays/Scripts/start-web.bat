@@ -1,2 +1,2 @@
 @echo off
-call start-chrome.bat
+call "%~dp0\start-chrome.bat""

@@ -77,7 +77,7 @@ namespace KnoxySays
                     var proc = Process.Start(startInfo);
                     proc.WaitForExit();
 
-                    Console.WriteLine("Launched " + args[1]);
+                    Console.WriteLine(action + " complete");
                     Environment.Exit(1);
                 }
                 catch (Exception ex)

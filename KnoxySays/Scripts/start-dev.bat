@@ -1,4 +1,4 @@
 @echo off
-call Scripts\start-sql.bat
-call Scripts\start-vs.bat
-call Scripts\start-proex.bat
+call "%~dp0\start-sql.bat""
+call "%~dp0\start-vs.bat"
+call "%~dp0\start-proex.bat"

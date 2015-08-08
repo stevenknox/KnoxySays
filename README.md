@@ -31,6 +31,11 @@ Start Skype, Dropbox and Chrome
 You can use an alias rather than KnoxySays (ks already exists)
 
 	ks start chrome
+	
+The is also an alias for Start and Stop
+
+	ks s dropbox
+	ks x dropbox
 
 To create your own simply make a copy of ks.bat and save with your new alias name (eg. DoWork.bat)
 
@@ -42,7 +47,7 @@ You can pipe through any additional commands to the underlying programs
 
 For help type
 
-	- KnoxySays Help
+	KnoxySays Help
 
 
 To add a new task simply create a new bat file in the format start-MYTASK.bat or stop-MYTASK.bat

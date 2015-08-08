@@ -48,3 +48,9 @@ For help type
 To add a new task simply create a new bat file in the format start-MYTASK.bat or stop-MYTASK.bat
 
 Drop these bat files into the Scripts folder and they will be available to run from the command prompt.
+
+**Installation / Useage Instructions**
+
+To use KnoxySays without compiling in Visual Studio download the files in Precompiled to a location on your PC. You can then add the path this location to your PATH Environment variable. The 'SetPath.ps1' script when executed with automatically set this PATH variable for you based upon the location of your folder.
+
+The help file does not currently pick up custom scripts however the next update will include all custom scripts.

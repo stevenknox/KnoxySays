@@ -18,9 +18,9 @@ Stops SQLEXPRESS service
 
 	KnoxySays stop sql
 
-Can chain together bat files to create a workflow.
+Chain together bat files to create a workflow.
 
-Start Visual Studio, SQLEXPRESS, Process Explorer and SQL Management Studio
+Start Visual Studio, SQLEXPRESS, Process Explorer
 
 	KnoxySays start dev 
 
@@ -32,12 +32,17 @@ You can use an alias rather than KnoxySays (ks already exists)
 
 	ks start chrome
 	
-The is also an alias for Start and Stop
+The is also an alias for Start (s) and Stop (x)
 
 	ks s dropbox
 	ks x dropbox
 
-To create your own simply make a copy of ks.bat and save with your new alias name (eg. DoWork.bat)
+When running the start action you can omit that argument for brevity
+
+	knoxysays skype
+	ks notepad
+	
+To create your own alias simply make a copy of ks.bat and save with your new alias name (eg. DoWork.bat)
 
 	DoWork start web
 
@@ -56,6 +61,6 @@ Drop these bat files into the Scripts folder and they will be available to run f
 
 **Installation / Useage Instructions**
 
-To use KnoxySays without compiling in Visual Studio download the files in Precompiled to a location on your PC. You can then add the path this location to your PATH Environment variable. The 'SetPath.ps1' script when executed with automatically set this PATH variable for you based upon the location of your folder.
+To use KnoxySays without compiling in Visual Studio download the files from 'Precompiled' to a location on your PC. You can then add the path this location to your PATH Environment variable. If you want to do this automatically you can run the 'SetPath.ps1' script. When executed this will set your user PATH variable based upon the location of the containing folder.
 
-The help file does not currently pick up custom scripts however the next update will include all custom scripts.
+If you add your own scripts you can manually update start-help.bat to include your shortcuts.

@@ -1,2 +1,2 @@
 @echo off
-start "" "C:\Program Files (x86)\Notepad++\notepad++.exe"
+call "%~dp0\start-notepad.bat"

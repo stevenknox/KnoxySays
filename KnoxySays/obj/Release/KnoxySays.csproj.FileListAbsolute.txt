@@ -1,6 +1,5 @@
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\KnoxySays.exe.config
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\ks.bat
-C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\help.bat
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-chrome.bat
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-dev.bat
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-dropbox.bat
@@ -34,3 +33,11 @@ C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\KnoxySays.exe
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\obj\Release\KnoxySays.exe
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\SetPath.ps1
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\obj\Release\KnoxySays.csprojResolveAssemblyReference.cache
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-help.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-filezilla.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-zip.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-notepad.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\stop-notepad.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\stop-visualsudio.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-visualstudio.bat
+C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\stop-filezilla.bat

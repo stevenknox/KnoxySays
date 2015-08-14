@@ -41,3 +41,5 @@ C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\stop-notepa
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\stop-visualsudio.bat
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\start-visualstudio.bat
 C:\Users\Steven\Source\Repos\KnoxySays\KnoxySays\bin\Release\Scripts\stop-filezilla.bat
+C:\Users\Development\Source\Repos\KnoxySays\KnoxySays\bin\Release\KnoxySays.exe.config
+C:\Users\Development\Source\Repos\KnoxySays\KnoxySays\obj\Release\KnoxySays.exe
